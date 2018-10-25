@@ -76,6 +76,28 @@
                 }
             ],
             "education": {
+                "elementary": [
+                    {
+                        "name": "Школа №1923",
+                        "year": 2003
+                    }
+                ],
+                "additional": [
+                    {
+                        "name": "Курс повышения квалификации",
+                        "organization": "Проводившая организация",
+                        "result": "Специализация",
+                        "year": 2006
+                    }
+                ],
+                "attestation": [
+                    {
+                        "name": "Тест на IQ",
+                        "organization": "IQ центр",
+                        "result": "Интеллект квалификейшн",
+                        "year": 2005
+                    }
+                ],
                 "primary": [
                     {
                         "name": "Российский государственный социальный университет, Москва",
@@ -86,7 +108,11 @@
                         "result_id": null,
                         "year": 2012
                     }
-                ]
+                ],
+                "level": {
+                    "id": "higher",
+                    "name": "Высшее"
+                }
             },
             "total_experience": {
                 "months": 118
@@ -1631,6 +1657,28 @@ max_date | строка с датой | Верхняя граница диапа
         }
     ],
     "education": {
+        "elementary": [
+            {
+                "name": "Школа №1923",
+                "year": 2003
+            }
+        ],
+        "additional": [
+            {
+                "name": "Курс повышения квалификации",
+                "organization": "Проводившая организация",
+                "result": "Специализация",
+                "year": 2006
+            }
+        ],
+        "attestation": [
+            {
+                "name": "Тест на IQ",
+                "organization": "IQ центр",
+                "result": "Интеллект квалификейшн",
+                "year": 2005
+            }
+        ],
         "primary": [
             {
                 "name": "Российский государственный социальный университет, Москва",
@@ -1641,7 +1689,11 @@ max_date | строка с датой | Верхняя граница диапа
                 "result_id": null,
                 "year": 2012
             }
-        ]
+        ],
+        "level": {
+            "id": "higher",
+            "name": "Высшее"
+        }
     },
     "total_experience": {
         "months": 118

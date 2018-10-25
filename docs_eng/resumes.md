@@ -76,6 +76,28 @@ Server returns `403 Forbidden` if authorization is failed.
                 }
             ],
             "education": {
+                "elementary": [
+                    {
+                        "name": "School №1923",
+                        "year": 2003
+                    }
+                ],
+                "additional": [
+                    {
+                        "name": "Refresher course",
+                        "organization": "Responsible organization",
+                        "result": "Specialization",
+                        "year": 2006
+                    }
+                ],
+                "attestation": [
+                    {
+                        "name": "IQ test",
+                        "organization": "IQ center",
+                        "result": "Intellect qualification",
+                        "year": 2005
+                    }
+                ],
                 "primary": [
                     {
                         "name": "National Research Nuclear University, Moscow",
@@ -86,7 +108,11 @@ Server returns `403 Forbidden` if authorization is failed.
                         "result_id": null,
                         "year": 2012
                     }
-                ]
+                ],
+                "level": {
+                    "id": "higher",
+                    "name": "Higher"
+                }
             },
             "total_experience": {
                 "months": 118
@@ -1221,6 +1247,28 @@ This option differs from the detailed display in the absence of some fields.
         }
     ],
     "education": {
+        "elementary": [
+            {
+                "name": "School №1923",
+                "year": 2003
+            }
+        ],
+        "additional": [
+            {
+                "name": "Refresher course",
+                "organization": "Responsible organization",
+                "result": "Specialization",
+                "year": 2006
+            }
+        ],
+        "attestation": [
+            {
+                "name": "IQ test",
+                "organization": "IQ center",
+                "result": "Intellect qualification",
+                "year": 2005
+            }
+        ],
         "primary": [
             {
                 "name": "National Research Nuclear University, Moscow",
@@ -1231,7 +1279,11 @@ This option differs from the detailed display in the absence of some fields.
                 "result_id": null,
                 "year": 2012
             }
-        ]
+        ],
+        "level": {
+            "id": "higher",
+            "name": "Higher"
+        }
     },
     "total_experience": {
         "months": 118
