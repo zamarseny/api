@@ -227,6 +227,8 @@ The response also contains the following additional information:
 
 Name | Type | Description
 --- | --- | --------
+finished | boolean | mark on completion all important CV fields 
+blocked | boolean | флаг заблокированности резюме (подробнее в [resume's status](#status))
 access | object | [CV access type](#access_type)
 total_views | number | number of resume views
 new_views | number | number of new views. This counter is reset when [detailed viewing history](#views) is received.
