@@ -30,8 +30,7 @@
 <a name="mine"></a>
 ## List of CVs for current user
 
-`GET /resumes/mine`
-
+`GET /resumes/mine` returns CV list at [resume summary format](#resume-short) for authorized user.
 Server returns `403 Forbidden` if authorization is failed.
 
 ```json
@@ -201,7 +200,7 @@ Server returns `403 Forbidden` if authorization is failed.
 
 <a name="resumes-mine-author-fields"></a>
 Please see the [full resume](#resume-fields) for a description of the fields.
-The response also contains the following additional information:
+Additionally for [resume summary format](#resume-short) the response also contains the following additional information:
 
 Name | Type | Description
 --- | --- | --------
@@ -215,7 +214,7 @@ status | object | [resume's status](#status)
 similar_vacancies | object | information on jobs similar to this resume
 similar_vacancies.url | string | the URL to perform a GET request to obtain [jobs similar to this resume](#similar)
 similar_vacancies.counters.total | number | total number of similar jobs
-
+paid_services | object | [resume-related paid services for the resume publisher](#applicant-paid-services)
 
 <a name="item"></a>
 ## View a CV
