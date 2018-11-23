@@ -770,7 +770,7 @@ can_upgrade_billing_type | boolean | Можно ли улучшить билли
 `PUT /employers/{employer_id}/vacancies/archived/{vacancy_id}`
 
 При успешной архивации вернётся `204 No Content`.
-
+Если вакансия с идентификатором vacancy_id не существует или у текущего менеджера нет прав на редактирование данной вакансии, то в ответ вернется 404 Not Found.
 
 <a name="archived"></a>
 ## Список архивных вакансий
